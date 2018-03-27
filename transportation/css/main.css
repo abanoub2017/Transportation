@@ -143,10 +143,11 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
     max-width: 900px;
     line-height: 1.5;
     left: 203px;
-    bottom: 122px;
+    bottom: 120px;
     text-align: center;
     text-transform: capitalize;
 }
+
 
 @media(max-width:768px){
     .slider .carousel-inner h1{
@@ -168,7 +169,7 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
 
 .slider .carousel-inner h1 span button {
     color: #fff;
-  padding: 8px 34px;
+  padding: 8px 33px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 400;
@@ -176,7 +177,9 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
      border: 2px solid #FFF;
     background: #FFF;
     color: #6e6c6c;
-    min-width: 180px;
+    width: 184px;
+    position: absolute;
+    left: 367px;
 }
 .slider .carousel-inner h1 span button:hover{
     color: #FFF;
@@ -606,7 +609,7 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
 }
 /* End Footer copyrightr */
 
-/*==========================================Start Section Header (Page1)====================================================================*/
+/*==========================================Start Section Header (Page1)=====================================================================*/
 
 .header{
     background: url(../img/1076.jpg) center center no-repeat fixed ;
@@ -745,15 +748,16 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
     font-size: 20px;
     
 }
-/*End Section About1 (Page1)*/
+/*==============================End Section About1 (Page1)=============================*/
 
 
-/*===================================== Start Section Services (Page2)====================================================================*/
+/*================================== Start Section Services (Page2)=============================================================*/
 
 /* Start Section Header Services*/
 .header-ser{
     background: url(../img/image-2-1170x658.jpg) center center no-repeat fixed ;
     background-size: cover;
+    width: 100%;
 }
 .header-ser .overlay{
     background-color: rgba(0,0,0,.5);
@@ -809,11 +813,11 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
 /* End Section Header Services*/
 
 /* Start Section  Services*/
-.services{
+.services-page{
     padding: 100px 0;
     overflow: hidden;
 }
-.services .info  h2{
+.services-page .info  h2{
     margin-bottom: 56px;
     color: #000;
     font-weight: bold;
@@ -823,8 +827,9 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
     position: relative;
     padding-bottom: 20px;
       font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
-.services .info  h2::before{
+.services-page .info  h2::before{
       content: "";
     width:120px ;
     height: 2px;
@@ -833,36 +838,43 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
     margin-right: -30px;
     background-color:#00A9DA ;
     position: absolute;
+    overflow: hidden;
 }
-.services .img {
+.services-page .img {
    overflow: hidden;
     margin-bottom: 20px;
 }
-.services .box {
+.services-page .box {
     padding-left: 20px;
+    overflow: hidden;
 }
-.services .box h3 {
+.services-page .box h3 {
    text-align: center;
     font-size: 2.25rem;
+    overflow: hidden;
 }
-.services .box p{
+.services-page .box p{
     font-size: 19px;
     color: #4e4c4c;
     line-height: 1.9;
+    overflow: hidden;
 }
-.services .box p i {
+.services-page .box p i {
     font-weight: 900;
     padding-right: 15px;
     color: #00a9da;
+   
 }
-.services .box ul li{
+.services-page .box ul li{
   color: #5d5b5b;
     line-height: 2;
     letter-spacing: .5px;
+   
 }
 
 /* End Section Services*/
 
+/*===============================End Section Services (Page2)===========================*/
 /*-- material-scrolltop button */
 .material-scrolltop{
     overflow: hidden;
@@ -879,7 +891,8 @@ h1,h2,h3,h4,h5,.lead,span ,i,p,a,li,span{
     width: 56px;
     height: 56px;
     overflow: hidden;
+    z-index: 9999;
 }
-/*End Section Services (Page2)*/
+
 
 

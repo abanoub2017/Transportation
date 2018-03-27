@@ -14,4 +14,16 @@ $(function(){
     //ScrollTop
    $('body').materialScrollTop();
     
+    //typwrite
+    var app = document.getElementById('app');
+
+   var typewriter = new Typewriter(app, {
+    loop: false
+  });
+
+    typewriter.typeString(' We are committed to provide best domestic as well as Global logistics  services to our customers through efficient channels and effective management')
+        .pauseFor(2500)
+        .start();
+ 
+    
 });
