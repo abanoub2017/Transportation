@@ -1,0 +1,19 @@
+@media(max-width:768px){
+    .slider .carousel-inner h1{
+         font-size: 40px;
+        max-width: 100%;
+        left: auto;
+        text-align: center;
+        bottom: 131px;
+        line-height: 1.5;
+    }
+   
+}
+
+@media(max-width:992px){
+    .slider .carousel-inner h1{
+         font-size: 30px;
+            left: 50px;
+    }
+    
+}
